@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>Curso de estética automotiva em São Paulo | Studio Cronos</title>
+<meta name="description" content="Curso prático de dois dias, com 16 horas, certificado e suporte depois do curso, na Zona Sul de São Paulo.">
+<style>body{margin:0;background:#000}a{color:#F20530;text-decoration:none}a:hover{color:#ff3a5c}*{text-wrap:pretty}h1,h2,h3{text-wrap:balance}p{text-align:left}.hs::-webkit-scrollbar{display:none}</style>
+</helmet>
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Inter',sans-serif;color:#f5f5f7;background:#000;overflow-x:hidden;-webkit-font-smoothing:antialiased">
+
+<header style="position:fixed;top:0;left:0;right:0;z-index:30;background:rgba(0,0,0,.72);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid rgba(255,255,255,.08)">
+<div style="max-width:1240px;margin:0 auto;padding:0 22px;min-height:52px;display:flex;align-items:center;justify-content:space-between;gap:20px">
+<a href="index.html" style="display:flex;align-items:center;gap:12px;color:#86868b;font-size:13px;white-space:nowrap" style-hover="color:#d2d2d7"><img src="uploads/logo-cronos-dark.png" alt="Studio Cronos" style="height:34px;width:auto;display:block"><span>Curso de estética automotiva</span></a>
+<nav style="display:{{ navD }};gap:24px;font-size:12px;flex-wrap:wrap"><a href="#visao" style="color:#d2d2d7" style-hover="color:#fff">Visão geral</a><a href="#aprende" style="color:#d2d2d7" style-hover="color:#fff">O que você aprende</a><a href="#investimento" style="color:#d2d2d7" style-hover="color:#fff">Investimento</a><a href="#duvidas" style="color:#d2d2d7" style-hover="color:#fff">Dúvidas</a></nav>
+<a href="https://wa.me/5511980317204?text=Oi%2C%20vi%20a%20p%C3%A1gina%20do%20curso%20de%20est%C3%A9tica%20automotiva%20e%20quero%20saber%20das%20pr%C3%B3ximas%20turmas." target="_blank" style="display:{{ ctaD }};background:#F20530;color:#fff;padding:6px 14px;border-radius:980px;font-size:12px;white-space:nowrap" style-hover="background:#ff3a5c;color:#fff">Falar pelo WhatsApp</a><button onClick="{{ toggleMenu }}" aria-label="Menu" style="display:{{ burgD }};width:44px;height:44px;align-items:center;justify-content:center;background:none;border:0;padding:0;cursor:pointer;color:#f5f5f7"><svg width="20" height="14" viewBox="0 0 20 14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="{{ burgPath }}"></path></svg></button>
+</div></header>
+<sc-if value="{{ menuOpen }}" hint-placeholder-val="{{ false }}"><div style="position:fixed;top:52px;left:0;right:0;bottom:0;z-index:29;background:rgba(0,0,0,.94);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);padding:24px 20px;box-sizing:border-box;display:flex;flex-direction:column;gap:4px;overflow-y:auto"><a href="#visao" onClick="{{ closeMenu }}" style="color:#f5f5f7;font-size:24px;font-weight:600;letter-spacing:-.01em;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.1)" style-hover="color:#fff">Visão geral</a><a href="#aprende" onClick="{{ closeMenu }}" style="color:#f5f5f7;font-size:24px;font-weight:600;letter-spacing:-.01em;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.1)" style-hover="color:#fff">O que você aprende</a><a href="#investimento" onClick="{{ closeMenu }}" style="color:#f5f5f7;font-size:24px;font-weight:600;letter-spacing:-.01em;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.1)" style-hover="color:#fff">Investimento</a><a href="#duvidas" onClick="{{ closeMenu }}" style="color:#f5f5f7;font-size:24px;font-weight:600;letter-spacing:-.01em;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.1)" style-hover="color:#fff">Dúvidas</a><a href="https://wa.me/5511980317204?text=Oi%2C%20vi%20a%20p%C3%A1gina%20do%20curso%20de%20est%C3%A9tica%20automotiva%20e%20quero%20saber%20das%20pr%C3%B3ximas%20turmas." target="_blank" style="margin-top:24px;align-self:flex-start;background:#F20530;color:#fff;padding:14px 28px;border-radius:980px;font-size:17px" style-hover="background:#ff3a5c;color:#fff">Falar pelo WhatsApp</a></div></sc-if>
+
+<section id="visao" style="position:relative;height:100svh;min-height:700px;overflow:hidden;background:#000;display:flex;align-items:flex-end">
+<video src="github-videos/uploads/curso-hero.mp4" autoplay="" muted="" loop="" playsinline="" disablepictureinpicture="" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none"></video>
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.65) 0%,rgba(0,0,0,.45) 35%,rgba(0,0,0,.7) 65%,#000 100%)"></div>
+<div style="position:relative;z-index:2;width:100%;max-width:1240px;margin:0 auto;padding:0 24px clamp(64px,10vh,120px);box-sizing:border-box;display:flex;flex-direction:column;gap:22px">
+<img src="uploads/logo-cronos-dark.png" alt="Studio Cronos" style="height:clamp(64px,7vw,96px);width:auto;display:block;align-self:flex-start">
+<div style="font-size:clamp(17px,1.6vw,21px);font-weight:600;color:#F20530">Curso de estética automotiva</div>
+<h1 style="margin:0;font-weight:700;font-size:clamp(40px,6.4vw,88px);line-height:1.04;letter-spacing:-.025em;max-width:1000px">Por que um carro perde o brilho mesmo lavado toda semana?</h1>
+<p style="margin:0;max-width:620px;font-size:clamp(19px,1.8vw,24px);line-height:1.4;color:rgba(245,245,247,.86)">A resposta está na pintura. Em dois dias de curso prático, você aprende a cuidar dela do jeito certo.</p>
+<div style="display:flex;gap:10px 22px;flex-wrap:wrap;font-size:15px;color:#d2d2d7"><span>2 dias</span><span style="color:#F20530">·</span><span>16 horas</span><span style="color:#F20530">·</span><span>Certificado</span><span style="color:#F20530">·</span><span>Zona Sul de São Paulo</span></div>
+<div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:8px">
+<a href="https://wa.me/5511980317204?text=Oi%2C%20vi%20a%20p%C3%A1gina%20do%20curso%20de%20est%C3%A9tica%20automotiva%20e%20quero%20saber%20das%20pr%C3%B3ximas%20turmas." target="_blank" style="background:#F20530;color:#fff;padding:14px 30px;border-radius:980px;font-size:17px" style-hover="background:#ff3a5c;color:#fff">Falar pelo WhatsApp</a>
+<button onClick="{{ openVid }}" style="display:flex;align-items:center;gap:10px;background:rgba(255,255,255,.14);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,.22);color:#fff;padding:13px 26px;border-radius:980px;font-size:17px;font-family:inherit;cursor:pointer" style-hover="background:rgba(255,255,255,.24)">Assistir ao vídeo <span style="display:flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;border:1.5px solid #fff"><svg width="8" height="10" viewBox="0 0 8 10"><path d="M0 0l8 5-8 5z" fill="#fff"></path></svg></span></button>
+</div></div></section>
+
+<section style="position:relative;height:100vh;min-height:680px;overflow:hidden;background:#000;isolation:isolate">
+<video src="github-videos/uploads/curso-glass.mp4" autoplay="" muted="" loop="" playsinline="" disablepictureinpicture="" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;transform:scale(1.4);pointer-events:none"></video>
+<div style="position:absolute;inset:0;z-index:1;background:rgba(0,0,0,.4)"></div>
+<div style="position:absolute;left:0;right:0;top:0;height:200px;z-index:1;background:linear-gradient(180deg,#000,rgba(0,0,0,0))"></div><div style="position:absolute;left:0;right:0;top:-1px;height:calc(5vw + 1px);background:#000;clip-path:polygon(0 0,100% 0,100% 100%);pointer-events:none;z-index:3"></div>
+<div style="position:absolute;top:10%;bottom:10%;left:clamp(20px,calc(10vw - 16px),10%);right:clamp(20px,calc(10vw - 16px),10%);z-index:2;border-radius:36px;overflow:hidden;border:1px solid rgba(255,255,255,.22);box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 30px 90px rgba(0,0,0,.4)">
+<div style="position:absolute;top:-12.5%;left:-12.5%;width:125%;height:125%"><video src="github-videos/uploads/curso-glass.mp4" autoplay="" muted="" loop="" playsinline="" disablepictureinpicture="" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:blur(2.5px) saturate(115%);transform:scale(1.4);pointer-events:none"></video></div>
+<div style="position:absolute;inset:0;background:linear-gradient(160deg,rgba(255,255,255,.06),rgba(0,0,0,.35) 45%,rgba(0,0,0,.45))"></div>
+<div style="position:relative;height:100%;max-width:980px;margin:0 auto;display:flex;flex-direction:column;justify-content:center;gap:40px;padding:40px clamp(24px,6vw,96px);box-sizing:border-box">
+<h2 data-rv="1" style="margin:0;font-weight:600;font-size:clamp(28px,4.2vw,56px);line-height:1.1;letter-spacing:-.02em;color:#c7c7cc">A pintura de um carro tem camadas. <span style="color:#fff">A sujeira fica presa em uma delas, onde a lavagem comum não chega.</span></h2>
+<p data-rv="1" style="margin:0;max-width:640px;font-size:clamp(17px,1.6vw,22px);line-height:1.5;color:rgba(245,245,247,.88)">Quem não conhece essas camadas passa polimento e cera por cima do problema, e o brilho dura poucos dias. Quem conhece sabe qual produto usar, em que ordem e por quê. É isso que você aprende aqui.</p><div style="position:relative;z-index:2;display:flex;gap:16px 28px;align-items:center;justify-content:flex-start;flex-wrap:wrap;margin-top:0;padding:0"><a href="https://wa.me/5511980317204?text=Oi%2C%20vi%20a%20p%C3%A1gina%20do%20curso%20de%20est%C3%A9tica%20automotiva%20e%20quero%20saber%20das%20pr%C3%B3ximas%20turmas." target="_blank" style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Inter',sans-serif;color:#F20530;font-size:17px;font-weight:500" style-hover="color:#ff3a5c">Fale conosco ›</a></div>
+</div></div></section>
+
+<section style="position:relative;background:#1d1d1f;padding:clamp(110px,12vw,150px) 24px"><div style="position:absolute;left:0;right:0;top:-1px;height:calc(5vw + 1px);background:#000;clip-path:polygon(0 0,100% 0,100% 100%);pointer-events:none;z-index:1"></div>
+<div style="max-width:1240px;margin:0 auto"><h2 data-rv="1" style="margin:0 0 64px;font-weight:600;font-size:clamp(32px,4.6vw,56px);letter-spacing:-.02em;line-height:1.08;color:#f5f5f7">O curso em números.</h2><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:48px 32px">
+<sc-for list="{{ stats }}" as="s" hint-placeholder-count="5">
+<div data-rv="1" style="display:flex;flex-direction:column;gap:14px;border-top:2px solid #F20530;padding-top:22px">
+<div style="font-weight:700;font-size:clamp(30px,3vw,40px);letter-spacing:-.02em;line-height:1.05;min-height:2.1em;background:linear-gradient(100deg,#fff 10%,#ff6a85 60%,#F20530 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent">{{ s.big }}</div>
+<p style="margin:0;font-size:16px;line-height:1.5;color:#a1a1a6">{{ s.text }}</p></div>
+</sc-for></div></div><div style="position:relative;z-index:2;display:flex;gap:16px 28px;align-items:center;justify-content:center;flex-wrap:wrap;margin-top:56px;padding:0 24px"><a href="https://wa.me/5511980317204?text=Oi%2C%20vi%20a%20p%C3%A1gina%20do%20curso%20de%20est%C3%A9tica%20automotiva%20e%20quero%20saber%20das%20pr%C3%B3ximas%20turmas." target="_blank" style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Inter',sans-serif;background:#F20530;color:#fff;padding:14px 30px;border-radius:980px;font-size:17px;font-weight:500" style-hover="background:#ff3a5c;color:#fff">Fale conosco</a></div></section>
+
+<section id="aprende" style="position:relative;background:#000;padding:clamp(120px,14vw,180px) 0 120px"><div style="position:absolute;left:0;right:0;top:-1px;height:calc(5vw + 1px);background:#1d1d1f;clip-path:polygon(0 0,100% 0,100% 100%);pointer-events:none;z-index:1"></div>
+<div style="max-width:1240px;margin:0 auto;padding:0 24px 80px;display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap"><div><div style="font-size:21px;font-weight:600;color:#F20530;margin-bottom:16px">O que você aprende</div><h2 data-rv="1" style="margin:0;font-weight:600;font-size:clamp(36px,5.4vw,72px);line-height:1.05;letter-spacing:-.025em">Na ordem em que o carro é tratado.</h2></div><button onClick="{{ openVid }}" style="display:flex;align-items:center;gap:8px;background:none;border:0;padding:0;color:#F20530;font-family:inherit;font-size:21px;cursor:pointer" style-hover="color:#ff3a5c">Assistir ao vídeo <span style="display:flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;border:1.5px solid currentColor"><svg width="8" height="10" viewBox="0 0 8 10"><path d="M0 0l8 5-8 5z" fill="currentColor"></path></svg></span></button></div>
+<sc-for list="{{ chapters }}" as="c" hint-placeholder-count="7">
+<div style="max-width:1240px;margin:0 auto 24px;padding:0 24px;box-sizing:border-box">
+<div data-rv="1" style="display:flex;flex-wrap:wrap;background:#111113;border-radius:32px;overflow:hidden;min-height:min(78vh,620px)">
+<div style="flex:1 1 380px;min-height:320px;background-color:#1d1d1f;background-image:{{ c.bg }};background-size:cover;background-position:{{ c.pos }}"></div>
+<div style="flex:1 1 380px;padding:clamp(36px,5vw,72px);display:flex;flex-direction:column;justify-content:center;gap:18px;box-sizing:border-box">
+<div style="font-size:15px;font-weight:600;letter-spacing:.06em;color:#F20530">{{ c.num }}</div>
+<h3 style="margin:0;font-weight:600;font-size:clamp(32px,3.6vw,48px);letter-spacing:-.02em;line-height:1.05;color:#f5f5f7">{{ c.name }}</h3>
+<p style="margin:0;font-size:clamp(17px,1.4vw,19px);line-height:1.55;color:#a1a1a6;max-width:480px">{{ c.text }}</p></div></div></div>
+</sc-for>
+<p style="max-width:1240px;margin:40px auto 0;padding:0 24px;box-sizing:border-box;font-size:21px;color:#86868b">E muito mais.</p>
+<div style="position:relative;z-index:2;display:flex;gap:16px 28px;align-items:center;justify-content:center;flex-wrap:wrap;margin-top:56px;padding:0 24px"><a href="https://wa.me/5511980317204?text=Oi%2C%20vi%20a%20p%C3%A1gina%20do%20curso%20de%20est%C3%A9tica%20automotiva%20e%20quero%20saber%20das%20pr%C3%B3ximas%20turmas." target="_blank" style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Inter',sans-serif;background:#F20530;color:#fff;padding:14px 30px;border-radius:980px;font-size:17px;font-weight:500" style-hover="background:#ff3a5c;color:#fff">Fale conosco</a></div></section>
+
+<section style="position:relative;background:#f5f5f7;color:#1d1d1f;padding:clamp(120px,14vw,170px) 24px"><div style="position:absolute;left:0;right:0;top:-1px;height:calc(5vw + 1px);background:#000;clip-path:polygon(0 0,100% 0,100% 100%);pointer-events:none;z-index:1"></div>
+<div style="max-width:1240px;margin:0 auto">
+<h2 data-rv="1" style="margin:0 0 64px;font-weight:600;font-size:clamp(32px,4.6vw,56px);line-height:1.08;letter-spacing:-.02em;max-width:820px;color:#1d1d1f">Você não precisa ter experiência. O curso começa do básico.</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:20px">
+<sc-for list="{{ profiles }}" as="p" hint-placeholder-count="3">
+<div data-rv="1" style="background:#fff;border-radius:28px;padding:40px 36px;display:flex;flex-direction:column;gap:16px;min-height:300px;box-sizing:border-box">
+<div style="font-size:14px;font-weight:600;color:#F20530">{{ p.num }}</div>
+<h3 style="margin:0;font-weight:600;font-size:clamp(24px,2.2vw,28px);letter-spacing:-.015em;line-height:1.15;color:#1d1d1f;min-height:2.3em">{{ p.title }}</h3>
+<p style="margin:0;font-size:17px;line-height:1.5;color:#6e6e73">{{ p.text }}</p></div>
+</sc-for></div></div><div style="position:relative;z-index:2;display:flex;gap:16px 28px;align-items:center;justify-content:center;flex-wrap:wrap;margin-top:56px;padding:0 24px"><a href="https://wa.me/5511980317204?text=Oi%2C%20vi%20a%20p%C3%A1gina%20do%20curso%20de%20est%C3%A9tica%20automotiva%20e%20quero%20saber%20das%20pr%C3%B3ximas%20turmas." target="_blank" style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Inter',sans-serif;background:#F20530;color:#fff;padding:14px 30px;border-radius:980px;font-size:17px;font-weight:500" style-hover="background:#ff3a5c;color:#fff">Fale conosco</a></div></section>
+
+
+<section style="position:relative;background:#fff;color:#1d1d1f;padding:clamp(110px,12vw,150px) 24px"><div style="position:absolute;left:0;right:0;top:-1px;height:calc(5vw + 1px);background:#f5f5f7;clip-path:polygon(0 0,100% 0,100% 100%);pointer-events:none;z-index:1"></div>
+<div style="max-width:980px;margin:0 auto">
+<h2 data-rv="1" style="margin:0 0 56px;font-weight:600;font-size:clamp(32px,4.6vw,56px);letter-spacing:-.02em;line-height:1.08;color:#1d1d1f;text-align:center">O que está incluso.</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:16px">
+<sc-for list="{{ included }}" as="i" hint-placeholder-count="6">
+<div data-rv="1" style="display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:18px;padding:36px 28px;min-height:190px;box-sizing:border-box;background:#f5f5f7;border-radius:24px;font-size:clamp(17px,1.5vw,19px);font-weight:600;line-height:1.35;color:#1d1d1f"><span style="flex:none;width:40px;height:40px;border-radius:50%;background:#F20530;display:flex;align-items:center;justify-content:center"><svg width="12" height="10" viewBox="0 0 12 10" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5l3.5 3.5L11 1"></path></svg></span><span>{{ i }}</span></div>
+</sc-for></div></div><div style="position:relative;z-index:2;display:flex;gap:16px 28px;align-items:center;justify-content:center;flex-wrap:wrap;margin-top:56px;padding:0 24px"><a href="https://wa.me/5511980317204?text=Oi%2C%20vi%20a%20p%C3%A1gina%20do%20curso%20de%20est%C3%A9tica%20automotiva%20e%20quero%20saber%20das%20pr%C3%B3ximas%20turmas." target="_blank" style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Inter',sans-serif;background:#F20530;color:#fff;padding:14px 30px;border-radius:980px;font-size:17px;font-weight:500" style-hover="background:#ff3a5c;color:#fff">Fale conosco</a></div></section>
+
+<section id="investimento" style="position:relative;background:#000;padding:clamp(130px,16vw,200px) 24px;text-align:center;overflow:hidden"><div style="position:absolute;left:0;right:0;top:-1px;height:calc(5vw + 1px);background:#fff;clip-path:polygon(0 0,100% 0,100% 100%);pointer-events:none;z-index:1"></div>
+<div style="position:absolute;left:50%;top:50%;width:900px;height:900px;transform:translate(-50%,-50%);border-radius:50%;background:radial-gradient(circle,rgba(242,5,48,.22),rgba(242,5,48,0) 60%);pointer-events:none"></div>
+<div style="position:relative;max-width:820px;margin:0 auto;display:flex;flex-direction:column;align-items:center;gap:24px">
+<div style="font-size:21px;font-weight:600;color:#F20530">Investimento</div>
+<div data-rv="1" style="font-weight:700;font-size:clamp(72px,12vw,160px);letter-spacing:-.04em;line-height:1;color:#f5f5f7">R$ 1.300</div>
+<p data-rv="1" style="margin:0;font-size:clamp(14px,1.3vw,16px);line-height:1.5;color:#a1a1a6;text-align:center;max-width:min(100%,560px);padding:0 4px;box-sizing:border-box;text-wrap:balance">Trabalhamos com todas as formas de pagamento: Pix, cartão ou boleto.</p>
+<a href="https://wa.me/5511980317204?text=Oi%2C%20vi%20a%20p%C3%A1gina%20do%20curso%20de%20est%C3%A9tica%20automotiva%20e%20quero%20saber%20das%20pr%C3%B3ximas%20turmas." target="_blank" style="margin-top:16px;background:#F20530;color:#fff;padding:16px 36px;border-radius:980px;font-size:19px" style-hover="background:#ff3a5c;color:#fff">Falar pelo WhatsApp</a>
+</div></section>
+
+<section id="duvidas" style="position:relative;background:#fff;color:#1d1d1f;padding:clamp(120px,14vw,160px) 24px"><div style="position:absolute;left:0;right:0;top:-1px;height:calc(5vw + 1px);background:#000;clip-path:polygon(0 0,100% 0,100% 100%);pointer-events:none;z-index:1"></div>
+<div style="max-width:820px;margin:0 auto">
+<h2 style="margin:0 0 48px;font-weight:600;font-size:clamp(32px,4.6vw,56px);letter-spacing:-.02em;line-height:1.08;text-align:center;color:#1d1d1f">Perguntas frequentes.</h2>
+<sc-for list="{{ faq }}" as="f" hint-placeholder-count="6">
+<div style="border-top:1px solid #d2d2d7">
+<div onClick="{{ f.toggle }}" style="display:flex;justify-content:space-between;gap:20px;padding:26px 0;cursor:pointer;font-size:clamp(19px,1.8vw,22px);font-weight:600;letter-spacing:-.01em"><span>{{ f.q }}</span><span style="color:#86868b;font-weight:400">{{ f.sign }}</span></div>
+<div style="display:{{ f.display }};padding:0 0 26px;font-size:17px;line-height:1.6;color:#6e6e73;max-width:700px">{{ f.a }}</div></div>
+</sc-for></div><div style="position:relative;z-index:2;display:flex;gap:16px 28px;align-items:center;justify-content:center;flex-wrap:wrap;margin-top:56px;padding:0 24px"><a href="https://wa.me/5511980317204?text=Oi%2C%20vi%20a%20p%C3%A1gina%20do%20curso%20de%20est%C3%A9tica%20automotiva%20e%20quero%20saber%20das%20pr%C3%B3ximas%20turmas." target="_blank" style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Inter',sans-serif;background:#F20530;color:#fff;padding:14px 30px;border-radius:980px;font-size:17px;font-weight:500" style-hover="background:#ff3a5c;color:#fff">Fale conosco</a></div></section>
+
+<section style="position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#000;padding:clamp(90px,10vw,130px) 24px"><div style="position:absolute;left:0;right:0;top:-1px;height:calc(5vw + 1px);background:#fff;clip-path:polygon(0 0,100% 0,100% 100%);pointer-events:none;z-index:1"></div>
+<div style="position:absolute;inset:0;background:radial-gradient(70% 60% at 50% 110%,rgba(242,5,48,.45),rgba(242,5,48,0) 70%)"></div>
+<div style="position:relative;z-index:2;max-width:820px;display:flex;flex-direction:column;align-items:center;gap:32px;text-align:center">
+<h2 data-rv="1" style="margin:0;font-weight:600;font-size:clamp(28px,3.8vw,48px);line-height:1.1;letter-spacing:-.02em;color:#f5f5f7">Cada etapa tem o seu tempo. Em dois dias, você aprende qual é o de cada uma.</h2>
+<a href="https://wa.me/5511980317204?text=Oi%2C%20vi%20a%20p%C3%A1gina%20do%20curso%20de%20est%C3%A9tica%20automotiva%20e%20quero%20saber%20das%20pr%C3%B3ximas%20turmas." target="_blank" style="background:#F20530;color:#fff;padding:16px 36px;border-radius:980px;font-size:19px" style-hover="background:#ff3a5c;color:#fff">Falar pelo WhatsApp</a>
+</div></section>
+
+<footer style="background:#000;border-top:1px solid #1d1d1f;padding:40px 24px 56px">
+<div style="max-width:1240px;margin:0 auto;display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;font-size:13px;line-height:1.6;color:#86868b">
+<div><span style="color:#f5f5f7;font-weight:600">Studio Cronos</span> · Av. Nossa Sra. do Sabará, 2280 - Jardim Campo Grande, São Paulo - SP, 04686-002</div>
+<div style="display:flex;gap:16px;flex-wrap:wrap"><span>Segunda a sexta, das 9h às 18h · Sábado, das 9h às 14h</span><a href="https://instagram.com/studio.cronos" target="_blank" style="color:#d2d2d7" style-hover="color:#fff">Instagram @studio.cronos</a><a href="index.html" style="color:#d2d2d7" style-hover="color:#fff">Voltar ao site</a></div>
+</div></footer>
+
+<sc-if value="{{ vidOpen }}" hint-placeholder-val="{{ false }}">
+<div onClick="{{ closeVid }}" style="position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.88);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);display:flex;align-items:center;justify-content:center;padding:24px">
+<button onClick="{{ closeVid }}" aria-label="Fechar" style="position:absolute;top:24px;right:24px;width:44px;height:44px;border-radius:50%;border:0;background:rgba(255,255,255,.16);color:#fff;font-size:20px;cursor:pointer">✕</button>
+<video id="lpModalVid" src="github-videos/uploads/curso-v3.mp4" controls="" autoplay="" playsinline="" onClick="{{ stop }}" style="width:min(100%,1200px);aspect-ratio:16/9;border-radius:20px;background:#000"></video>
+</div></sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { open: 0, vid: false };
+  componentDidMount() {
+    this._mobInit();
+    document.querySelectorAll('video[aria-hidden]').forEach(v => { v.loop = true; v.addEventListener('ended', () => { v.currentTime = 0; v.play().catch(() => {}); }); v.addEventListener('pause', () => { if (!document.hidden) v.play().catch(() => {}); }); v.muted = true; v.defaultMuted = true; v.volume = 0; v.addEventListener('volumechange', () => { v.muted = true; v.volume = 0; }); const p = v.play(); if (p && p.catch) p.catch(() => {}); });
+    if (!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const els = [...document.querySelectorAll('[data-rv]')];
+    els.forEach(el => { el.style.opacity = '0'; el.style.translate = '0 48px'; el.style.transition = 'opacity 1.1s cubic-bezier(.25,.1,.25,1),translate 1.1s cubic-bezier(.25,.1,.25,1)'; });
+    this._io = new IntersectionObserver(es => {
+      es.filter(e => e.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top).forEach((e, i) => {
+        const el = e.target; el.style.transitionDelay = (i * 0.1) + 's'; el.style.opacity = '1'; el.style.translate = '0 0'; this._io.unobserve(el);
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+    els.forEach(el => this._io.observe(el));
+  }
+  componentWillUnmount() { window.removeEventListener('resize', this._onRs); this._io && this._io.disconnect(); }
+
+  _mobInit() { this._onRs = () => this.forceUpdate(); window.addEventListener('resize', this._onRs); }
+  _mobVals() { const mob = window.innerWidth < 820, o = !!(this.state && this.state.menu) && mob; return { navD: mob ? 'none' : 'flex', ctaD: mob ? 'none' : 'inline-block', burgD: mob ? 'flex' : 'none', menuOpen: o, burgPath: o ? 'M3 1l14 12M17 1L3 13' : 'M1 1h18M1 7h18M1 13h18', toggleMenu: () => this.setState(s => ({ menu: !s.menu })), closeMenu: () => this.setState({ menu: false }) }; }
+  renderVals() {
+    const img = id => 'url(uploads/pasted-' + id + '-0.png)';
+    const FAQ = [
+      ['Preciso ter experiência?', 'Não. O curso começa do básico, com os tipos de sujeira e de pH, e avança até o acabamento.'],
+      ['Quanto tempo dura?', 'Dois dias, com 8 horas por dia.'],
+      ['O curso tem certificado?', 'Sim, entregue ao final.'],
+      ['O que vou aprender?', 'Higienização, lavagem, descontaminação, polimento técnico, proteção (cera, selante e vitrificador) e limpeza de motor. De bônus, remoção de chuva ácida e de cristalização dos vidros.']
+    ];
+    return { ...this._mobVals(),
+      vidOpen: this.state.vid,
+      openVid: () => this.setState({ vid: true }),
+      closeVid: () => this.setState({ vid: false }),
+      stop: e => e.stopPropagation(),
+      stats: [
+        { big: '2 dias', text: 'Dois dias seguidos, para você sair com o processo completo na cabeça.' },
+        { big: '8 horas por dia', text: 'São 16 horas ao todo. Isso significa tempo para executar cada etapa com as próprias mãos, e não só assistir.' },
+        { big: 'Prática e teoria', text: 'Cada produto é explicado e depois aplicado no carro, para você entender o motivo de cada passo.' },
+        { big: 'Dúvidas respondidas depois', text: 'Quando o curso acaba, você continua podendo perguntar aos instrutores, sem custo.' }
+      ],
+      chapters: [
+        { num: '01', name: 'Higienização', bg: img('1791937804675'), pos: 'center 35%', text: 'Cada canto limpo no detalhe, com produto germicida e bactericida, trazendo limpeza, bem-estar e saúde para o interior do veículo. Você aprende os tipos de sujeira e de pH, como limpar teto e plásticos e como hidratar os bancos.' },
+        { num: '02', name: 'Lavagem', bg: 'url(uploads/estudio-mercedes.png)', pos: 'center 60%', text: 'Existem shampoos para sujeiras diferentes. Você aprende quando usar cada um e qual é a técnica correta de lavagem, para limpar sem riscar.' },
+        { num: '03', name: 'Descontaminação', bg: 'url(uploads/Gemini_Generated_Image_4u3utb4u3utb4u3u.jpg)', pos: 'center', text: 'A lavagem comum não tira tudo. Algumas partículas ficam presas na pintura e a deixam áspera ao toque. Você aprende a remover o que ficou, para a pintura chegar pronta ao polimento.' },
+        { num: '04', name: 'Polimento técnico', bg: img('1791937627095'), pos: 'center 55%', text: 'Nivelamento do verniz com a máxima correção e brilho, sempre respeitando o verniz, e selagem da pintura com até 12 meses de proteção. Você aprende a fazer esse trabalho em uma ou duas etapas.' },
+        { num: '05', name: 'Proteção', bg: img('1791937786134'), pos: 'center', text: 'Camada cerâmica que serve como sacrifício para o verniz, com brilho inigualável, facilidade na limpeza e resistência 3x maior que a do próprio verniz. Você aprende as diferenças entre cera, selante e vitrificador e qual usar em cada carro.' },
+        { num: '06', name: 'Motor', bg: img('1791937875576'), pos: 'center', text: 'Lavar o motor exige cuidado com as partes eletrônicas. Você aprende a isolá-las, a remover barro e graxa, a neutralizar o que sobrou da limpeza e a proteger o conjunto no final.' },
+        { num: 'Bônus', name: 'Vidros', bg: 'url(uploads/chuva-acida.png)', pos: 'center', text: 'Remoção de chuva ácida e de cristalização, para os vidros ficarem limpos e com boa visibilidade.' }
+      ],
+      profiles: [
+        { num: '01', title: 'Para quem quer começar na estética automotiva', text: 'Você aprende o processo completo, na ordem certa, com instrutores que trabalham com isso todos os dias.' },
+        { num: '02', title: 'Para quem já trabalha com carros', text: 'Você revisa a base, tira dúvidas de técnica e conhece a forma de polir em uma ou duas etapas.' },
+        { num: '03', title: 'Para quem quer cuidar do próprio carro', text: 'Você entende o que cada produto faz e deixa de depender de tentativa e erro na garagem.' }
+      ],
+      included: ['Dois dias de aulas práticas e teóricas', 'Certificado de conclusão', 'Café da manhã', 'Material das aulas', 'Suporte para dúvidas depois do curso, sem custo', 'E muito mais'],
+      faq: FAQ.map((x, k) => ({ q: x[0], a: x[1], sign: this.state.open === k ? '−' : '+', display: this.state.open === k ? 'block' : 'none', toggle: () => this.setState(s => ({ open: s.open === k ? -1 : k })) }))
+    };
+  }
+}
+</script>
+</body>
+</html>
